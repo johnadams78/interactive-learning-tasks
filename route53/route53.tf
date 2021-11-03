@@ -1,6 +1,6 @@
-#resource "aws_route53_zone" "main" {
- # name = "johnadamsev.com"
-#}
+resource "aws_route53_zone" "main" {
+  name = "johnadamsev.com"
+}
 
 resource "aws_route53_zone" "dev" {
   name = "blog.johnadamsev.com"
