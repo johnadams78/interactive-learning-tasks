@@ -1,4 +1,4 @@
-resource "aws_route53_record" "videos" {
+resource "aws_route53_record" "webserver" {
   zone_id = "Z05859503VOVDG70P4C98"
   name    = "wordpress.johnadamsev.com"
   type    = "A"
