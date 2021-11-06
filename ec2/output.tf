@@ -3,14 +3,17 @@
   value = aws_instance.web.ami
 } */
 
-output "ID" {
-  value = aws_instance.web.id
-}
 
 
 /* output "ARN" {
   value = aws_instance.web.arn
 } */
+
+output "ID" {
+  value = aws_instance.web.id
+}
+
+
 
 output "PIP" {
   value = aws_instance.web.public_ip
